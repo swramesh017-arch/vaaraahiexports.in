@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+.img-section{
+    height: 450px;
+    width: 100%;
+}
+.img-container{
+    background-image: url("images/ship 1294x400.jpg");
+    height: 450px;
+    width: 100%;   
+}
+.img-container h1{
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: rgba(255, 255, 255, 0.864);
+    text-align: center;
+}
+
+.services-sub-section-heading {
+    margin-top: 40px;
+    color: rgb(37, 35, 35);
+    color: rgba(49, 44, 44, 0.929);
+    background-color: rgba(242, 242, 242, 0.7);
+    width: 900px;
+    font-family: poppins;
+    font-size: 28px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.services-sub-section-para {
+    margin: 20px 40px;
+    padding-left: 20px;
+    color: rgba(49, 44, 44, 0.929);
+    background-color: rgba(242, 242, 242, 0.7);
+    font-family: poppins;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 900px;
+    border-radius: 5px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+.services-container {
+    margin-top: 60px;    
+    display: flex;
+    justify-content: space-between;
+}
+.export-services-container, .import-services-container {
+    display: flex;
+    width: 50%;
+    margin-left: 40px;
+    flex-direction: column;
+    
+}
+
+.export-services-container-heading, .import-services-container-heading  {
+    color: rgb(37, 35, 35);
+    background-color: rgba(242, 242, 242, 0.7);
+    color: rgba(49, 44, 44, 0.929);
+    width: 100%;
+    font-family: poppins;
+    font-size: 28px;    
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.export-services-container-content-list, .import-services-container-content-list{
+    display: block;
+    background-color: rgba(242, 242, 242, 0.7);
+    color: rgba(49, 44, 44, 0.929);
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.import-services-container-content-list{
+    padding-bottom: 105px;
+}
+.export-services-container-content-list li, .import-services-container-content-list li {
+    display: block;
+    line-height: 28px;
+    font-family: poppins;
+    font-size: 20px;
+}
+
+.export-services-container-content-list li::before, .import-services-container-content-list li::before {
+    content: "✔";
+    padding: 4px;
+    color: rgba(49, 44, 44, 0.929);
+}

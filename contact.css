@@ -1,0 +1,92 @@
+.contact-img-section{
+    height: 400px;
+    width: 100%;
+}
+.contact-img-container {
+    background-image: url("images/contact-banner-new.png");
+    height: 400px;
+    width: 100%;   
+    background-size: cover;
+}
+
+.contact-img-sec-text{
+    padding-top: 40px;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    color: rgba(88, 70, 67, 0.76);
+    text-align: center;
+} 
+
+.contact-address-section {
+    margin-top: 60px;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-address-container {
+    display: flex;
+    width: 50%;
+    margin-left: 40px;
+    flex-direction: column;
+}
+.contact-address-container-heading {
+    color: rgb(37, 35, 35);
+    background-color: rgba(242, 242, 242, 0.7);
+    color: rgba(65, 53, 52, 0.86);
+    width: 100%;
+    font-family: poppins;
+    font-size: 28px;    
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.office-address-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    background-color: rgba(242, 242, 242, 0.7);
+}
+.office-address-container-text, .office-email-container-text, .office-phone-container-text {
+    display: flex;
+    flex-direction: row;
+    color: rgba(39, 35, 34, 0.9);
+    justify-content: space-evenly;
+    font-family: poppins;
+    letter-spacing: 0.65px;
+}
+.office-email-container-text {
+    padding-top: 20px;
+}
+.office-phone-container-text {
+    padding-top: 20px;
+}
+.office-phone-container-text-one, .office-email-container-text-one {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    padding-right: 50px;
+}
+.office-address-container-text-one {
+    display: flex;
+    vertical-align: top;
+    justify-content: right;
+    width: 50%;
+    padding-right: 50px;
+}
+.office-phone-container-text-two, .office-address-container-text-two, .office-email-container-text-two {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+}
+
+

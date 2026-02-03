@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+.products-img-section{
+    height: 500px;
+    width: 100%;
+}
+
+.products-img-container{
+    background-image: url("images/spicesimg2.jpg");
+    height: 500px;
+    width: 100%;       
+    background-size: contain;
+}
+
+.products-img-section-text {
+    padding-top: 50px;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: rgba(236, 230, 229, 0.76);
+    text-align: center;
+} 
+
+.product-description-para {
+    margin: 20px 40px;
+    padding-left: 20px;
+    color: rgba(49, 44, 44, 0.929);
+    background-color: rgba(242, 242, 242, 0.7);
+    font-family: poppins;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 900px;
+    border-radius: 5px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+
+.products-section {
+    height: 500px;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.products-section-spices-heading, .products-section-pulses-heading, .products-section-millets-heading {
+    font-family: poppins;
+    font-size: 26px;
+    text-decoration: underline;
+    color: rgba(53, 48, 48, 0.929);
+}
+.products-section-spices, .products-section-pulses, .products-section-millets {
+    display: block;
+    width: 200px;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 1px rgba(104, 99, 99, 0.671);
+    padding-top: 50px;
+}
+.products-section-spices a:hover, .products-section-pulses a:hover, .products-section-millets a:hover {
+    color: hsla(17, 100%, 51%, 0.938);
+}
+.products-section-spices-list li{
+    display: block;
+    margin-left: -50px;
+    line-height: 30px;
+}
+.products-section-spices-list{
+    padding-top: 40px;
+}
+.products-section-spices-list li a{
+    color: rgba(36, 34, 34, 0.829);
+}
