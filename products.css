@@ -25,7 +25,7 @@
 } 
 
 .product-description-para {
-    margin: 20px 40px;
+    margin-top: 40px;
     padding-left: 20px;
     color: rgba(49, 44, 44, 0.929);
     background-color: rgba(242, 242, 242, 0.7);
@@ -33,7 +33,7 @@
     font-size: 20px;
     padding-bottom: 10px;
     padding-top: 20px;
-    width: 900px;
+    width: 100%;
     border-radius: 5px;
     line-height: 30px;
     box-sizing: border-box;
@@ -41,11 +41,11 @@
 
 
 .products-section {
-    height: 500px;
+    height: auto;
     width: 100%;
     padding-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .products-section-spices-heading, .products-section-pulses-heading, .products-section-millets-heading {
     font-family: poppins;
@@ -55,19 +55,19 @@
 }
 .products-section-spices, .products-section-pulses, .products-section-millets {
     display: block;
-    width: 200px;
-    height: 350px;
+    width: 100%;
+    height: auto;
     justify-content: center;
     text-align: center;
-    box-shadow: 0 0 1px rgba(104, 99, 99, 0.671);
     padding-top: 50px;
+    padding-bottom: 60px;
 }
 .products-section-spices a:hover, .products-section-pulses a:hover, .products-section-millets a:hover {
     color: hsla(17, 100%, 51%, 0.938);
 }
 .products-section-spices-list li{
     display: block;
-    margin-left: -50px;
+    margin-left: 0px;
     line-height: 30px;
 }
 .products-section-spices-list{

@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.products-img-section{
+    height: 500px;
+    width: 100%;
+}
+
+.products-img-container{
+    background-image: url("images/cardamom.png");
+    height: 500px;
+    width: 100%;       
+    background-size: contain;
+}
+
+.products-img-section-text {
+    padding-top: 120px;
+    font-family: poppins;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: rgba(255, 255, 255, 0.76);
+    text-align: center;
+} 
+.product-description-heading {
+    margin-top: 40px;
+    color: rgba(49, 44, 44, 0.929);
+    background-color: rgba(242, 242, 242, 0.7);
+    width: 900px;
+    font-family: poppins;
+    font-size: 24px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.product-description-para-cardamom {
+    margin: 20px 40px;
+    padding-left: 20px;
+    color: rgba(49, 44, 44, 0.929);
+    background-color: rgba(242, 242, 242, 0.7);
+    font-family: poppins;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 900px;
+    border-radius: 5px;
+    line-height: 30px;
+}
