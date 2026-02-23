@@ -85,6 +85,7 @@
       .aboutus-para {
         display: flex;
         width: 100%;
+        font-size: 16px;
         margin-left: 0px;
         padding-left: 10px;
         padding-right: 0px;
@@ -184,6 +185,11 @@
     box-sizing: border-box;
     text-align: center;
 }
+@media (max-width:600px) {
+    .vision-para{
+        font-size: 16px;
+    }
+}
 .mission-sec{
     display: block;    
     margin-top: 30px;
@@ -244,6 +250,11 @@
     box-sizing: border-box;
     text-align: center;
 }
+@media (max-width:600px) {
+    .mission-para{
+        font-size: 16px;
+    }
+}
 
 /*   strenghts and advantages section */
 
@@ -284,6 +295,11 @@
     font-weight: 500;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+@media (max-width:600px) {
+    #strengths-para{
+        font-size: 16px;
+    }
 }
 .adv-sec{
     display: flex;
@@ -334,4 +350,9 @@
     font-size: 18px;
     text-align: center;
     color: rgba(49, 44, 44, 0.929);
+}
+@media (max-width:600px) {
+    #quality-material-para{
+        font-size: 16px;
+    }
 }

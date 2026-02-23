@@ -6,6 +6,7 @@
     font-size: 16px;
     font-weight: 500;
 }
+
 body{
     background-color: rgb(253, 253, 253);
 }
@@ -88,13 +89,6 @@ body{
 .menu-list li a:hover{
     color: #f83a00;
 }
-.menu-list .list-items li{
-   /* padding-top:10px;
-    padding-bottom: 10px;
-    border-radius: 2px;   
-    padding-right: 20px;
-    border: none; */
-}
 .list-items {
     display: flex;
     width: 100%;
@@ -117,7 +111,6 @@ body{
     align-items: center;
 }
 .menu-list li:hover{
-   /* background-color: hsla(0, 0%, 89%, 0.856); */
     border: 0px;   
     transition: background-color 0.15s;    
 }
@@ -258,10 +251,19 @@ li{
     font-size: 20px;
     padding-bottom: 10px;
     padding-top: 20px;
+    padding-right: 10px;
     width: 100%;
     border-radius: 5px;
     line-height: 30px;
     box-sizing: border-box;
+}
+@media (max-width: 600px) {
+    .homepage-aboutus-para, .homepage-services-para, .homepage-products-para{
+        font-size: 16px;
+    }
+    .aboutus-para-link{
+        font-size: 16px;
+    }
 }
 
 /*--------footer section--------*/
